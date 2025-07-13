@@ -11,8 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: {
+          light: "#4CCAF5",
+          dark: "#2B0B9B",
+        },
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [], // HeroUI প্লাগইন সরিয়ে ফেলা হয়েছে
 } satisfies Config;
